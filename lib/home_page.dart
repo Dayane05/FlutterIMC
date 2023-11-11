@@ -22,13 +22,13 @@ class _IMCCalculatorState extends State<IMCCalculator> {
           TextField(
             controller: weightController,
             keyboardType: TextInputType.number,
-            decoration: InputDecoration(labelText: 'Peso (kg)'),
+            decoration: InputDecoration(labelText: 'Peso (kg)', hintText: 'Ex: 70'),
           ),
           SizedBox(height: 16),
           TextField(
             controller: heightController,
             keyboardType: TextInputType.number,
-            decoration: InputDecoration(labelText: 'Altura (cm)'),
+            decoration: InputDecoration(labelText: 'Altura (cm)', hintText: 'Ex: 170'),
           ),
           SizedBox(height: 16),
           Row(
